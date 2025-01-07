@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+
+  color: #2e2f42;
+  background-color: #e5e5e5;
+}
+.portfolio ul {
+  list-style-type: none;
+}
+
+.portfolio img {
+  height: 300px;
+  width: 360px;
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
