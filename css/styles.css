@@ -1,26 +1,138 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
-.portfolio ul {
+a {
+  text-decoration: none;
+}
+
+ul {
   list-style-type: none;
 }
 
-.portfolio img {
-  height: 300px;
-  width: 360px;
+.header {
 }
-
-h2,
-h3 {
+.header-nav {
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.logo-acsent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-menu-list {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.heamer-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-p {
+.header-adress-list {
+}
+.adress-list-item {
+}
+.adress-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.hero-button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
+}
+/*******************************feature*******************************/
+.feature {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.feature-list {
+}
+.feature-item {
+}
+.feature-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-text {
+}
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+/*******************************TEAM*******************************/
+.team {
+  background-color: #2e2f42;
+}
+.team-title {
+}
+.team-list {
+}
+.team-member {
+}
+.team-member-photo {
+}
+.team-member-name {
+}
+.team-member-role {
 }
