@@ -51,8 +51,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  list-style: none;
 }
-.header-menu-list:hover {
+.header-menu-list:hover,
+.header-menu-list:focus {
   color: #404bbf;
 }
 
@@ -67,31 +69,35 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
-
-/*
-.adress-list {
+.address-list {
+  list-style: none;
 }
-.adress-item {
+/*
+.address-item {
 }
  */
 .address-class {
   font-style: normal;
 }
-.adress-link {
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.adress-link:hover,
-.adress-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
