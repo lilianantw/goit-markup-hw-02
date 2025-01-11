@@ -18,6 +18,8 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+/*******************HEADER*************************************/
 /*
 .header {
 }
@@ -91,7 +93,7 @@ ul {
   color: #404bbf;
 }
 
-/***************************HERO*********************/
+/***************************HERO/section #1*********************/
 .hero {
   background-color: #2e2f42;
 }
@@ -100,6 +102,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -115,9 +118,13 @@ ul {
 .hero-button:hover {
   background-color: #404bbf;
 }
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
-/*******************************feature*******************************/
+/****************************FEATURE/section #2--*******************************/
 /*
+
 .feature {
 }
 */
@@ -151,18 +158,23 @@ ul {
   color: #434455;
 }
 
-/*******************************TEAM*******************************/
+/*******************************TEAM/section #3*******************************/
 .team {
   background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 /*
-.team-list {
-}
 .team-member {
 }
 .team-member-photo {
@@ -177,7 +189,7 @@ ul {
   color: #434455;
 }
 
-/**************************PORTFILIO**************************/
+/************************* PORTFOLIO/section #4*****************/
 /*
 .portfolio {
 }
@@ -208,7 +220,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/******************************FOOTER******************************/
+/**************************FOOTER******************************/
 .footer {
   background-color: #2e2f42;
 }
