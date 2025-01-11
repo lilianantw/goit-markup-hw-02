@@ -76,16 +76,6 @@ ul {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.address-list {
-  list-style: none;
-}
-/*
-.address-item {
-}
- */
-.address-class {
-  font-style: normal;
-}
 
 .address {
   font-style: normal;
