@@ -86,6 +86,17 @@ ul {
 .address-class {
   font-style: normal;
 }
+
+.address {
+  font-style: normal;
+}
+
+/*
+.address-list {
+}
+.address-item {
+}
+*/
 .address-link {
   font-weight: 400;
   font-size: 16px;
@@ -100,7 +111,6 @@ ul {
 .address-link:focus {
   color: #404bbf;
 }
-
 /***************************HERO/section #1*********************/
 .hero {
   background-color: #2e2f42;
